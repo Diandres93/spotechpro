@@ -1,0 +1,64 @@
+.ContainerMethods {
+    @apply w-full h-screen;
+}
+
+.MethodsDeliverys {
+    @apply w-full p-3 mt-28 md:mt-20;
+}
+
+.BackMethods {
+    @apply w-full flex items-center gap-3 lg:pl-24;
+}
+
+.ContainerLocation {
+    @apply w-full mt-10 flex items-center gap-8 justify-between lg:w-2/3 mx-auto;
+}
+
+.Location1 {
+    @apply text-sm text-[#3681F0] font-bold;
+}
+
+.Location2 {
+    @apply text-sm;
+}
+
+.buttonLocation {
+    @apply w-48 p-1 pl-7 text-[#F0604D] border-2 border-[#F0604D] rounded;
+}
+
+.ContainerbuttonLocation {
+    @apply relative;
+}
+
+.IconLocation {
+    @apply absolute top-1/2 left-2 -translate-y-1/2 text-xl text-[#F0604D];
+}
+
+.SectionReceive {
+    @apply w-full mt-6 lg:w-2/3 mx-auto;
+}
+
+.OptionReceive {
+    @apply mt-2 p-4 py-5 shadow-sm rounded border flex items-center justify-between  bg-[#F3F3F3];
+}
+
+.WarningReceive {
+    @apply text-left text-[#3681F0];
+}
+
+.SectionWithdraw {
+    @apply mt-5 lg:w-2/3 mx-auto;
+}
+
+.OptionsWithdraw {
+    @apply mt-2 w-full border rounded;
+}
+
+.OptionWithdraw {
+    @apply w-full p-4 py-5 flex border  items-center justify-between bg-[#F3F3F3];
+}
+
+.ButtonContinue {
+    @apply w-44 p-2 m-auto mt-7 block rounded text-center text-white bg-[#50C21F];
+}
+
